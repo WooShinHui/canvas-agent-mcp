@@ -1,4 +1,4 @@
-# Phaser Agent MCP
+# Canvas Agent MCP
 
 Canvas 안의 Phaser 게임을 AI 에이전트가 **직접 실행하고, 조작하고, 검증**하게 해 주는 MCP 서버입니다.
 
