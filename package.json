@@ -1,0 +1,25 @@
+{
+  "name": "phaser-agent-mcp",
+  "version": "0.1.0",
+  "description": "MCP server that lets AI agents run, inspect and verify Phaser games inside a Canvas",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "vite demo --port 5173 --strictPort",
+    "mcp": "tsx src/server.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/driver.test.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.4.0",
+    "playwright": "^1.65.0",
+    "tsx": "^4.23.15",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "phaser": "^3.90.0",
+    "typescript": "^7.0.2",
+    "vite": "^7.0.0"
+  }
+}

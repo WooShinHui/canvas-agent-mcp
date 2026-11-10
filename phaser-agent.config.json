@@ -1,0 +1,18 @@
+{
+  "url": "http://localhost:5173",
+  "gameGlobal": "__game",
+  "scene": "Main",
+  "readyPath": "controller.ready",
+  "state": {
+    "phase": "controller.phase",
+    "score": "controller.score",
+    "timerLeftMs": "controller.timer.getRemaining()"
+  },
+  "trace": [
+    { "target": "controller", "method": "addScore", "event": "score_add" },
+    { "target": "controller", "method": "nextPhase", "event": "phase_up" }
+  ],
+  "events": [
+    { "target": "controller", "name": "GAME_COMPLETE", "event": "complete" }
+  ]
+}
